@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
+	
+}
+
+body {
+	background: linear-gradient(135deg, #63bdd3 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+	padding: 1em;
+}
+
+
+
+.container {
+		padding: 1em 2em;
+}
+
+
+/*********************
+FORM STYLES
+**********************/
+
+
+
+.main {
+	padding: .75em 0;
+	margin: 0;
+
+}
+
+.main.heading {
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background-color: #000;
+color: #fff;
+font-size: 1.5em;
+}
+
+.heading {
+text-align: center;
+
+
+}
+
+.top-border {
+	border: 2px solid #000;
+	width: 95%;
+	display: block;
+	margin:  3px auto;
+}
+
+
+.bottom-border {
+	border: 3px solid #000;
+	width: 95%;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+
+form {
+	max-width: 560px;
+	margin: 20px auto;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 11px 19px 32px -13px rgba(0,0,0,0.51);
+
+	
+}
+
+h2 {
+	color: #000;
+	font-weight: bold;
+}
+
+
+.signup {
+	border-bottom: 1px solid #fff;
+	margin: 1em 0;
+	
+}
+
+label, p {
+	color: #686868;
+}
+
+
+input[type="text"], 
+input[type="email"], 
+input[type="telephone"],
+select[id="state"] {
+	background-color: #EEEEEE;
+	border: none;
+	height: auto;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	border-radius: .2em;
+	font-size: 15px;
+	outline: 0;
+	margin: 15px 0;
+
+}
+
+input[type="radio"] {
+margin: 10px 0;
+}
+
+.comments-label {
+	width: 100%;
+	
+}
+
+
+.newsletter {
+	margin: 10px 0;
+}
+
+input[type="checkbox"] {
+	margin: 10px 0;
+	appearance: none;
+	outline: 0;
+
+}
+
+textarea {
+	margin-top: 20px;
+	background-color: #E6E6E6;
+	border-radius: .2em;
+	font-size: 15px;
+	outline: 0;
+	border: none;
+	width: 100%;
+	height: 8em;
+	padding: 15px;
+
+}
+
+
+input[type="submit"] {
+width: 100%;
+border: none;
+outline: 0;
+color: #fff;
+background-color: #90F6A8;
+font-size: 1.8em;
+border-radius: .2em;
+margin: 20px 0;
+padding: 7px;
+}
+
+
+input:focus, #comments:focus {
+	border: 1px dotted green;
+}
+
+.inln {
+	display: inline-block;
+}
+
+legend {
+	margin: 1em 0;
+	color: #71A9D9;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+fieldset {
+	border: none;
+}
+
+.copy {
+	text-align: center;
+}
+
+.newsletter-signup {
+	margin-top: 20px;
+}
+
+.newslegend {
+	border-top: 1px solid #000;
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	margin: 20px auto;
+}
+
+
+
+/*******************
+MEDIA QUERIES
+********************/  
+  
+@media (min-width: 768px) {
+	
+
+label, #state {
+	display: inline-block;
+	width: 20%;
+	min-width: 10em;
+}
+
+
+input[type="text"], 
+input[type="email"],
+input[type="telephone"] {
+	display: inline-block;
+	width: 70%;
+}
+
+input.zip {
+	width: 20%;
+	min-width: 10em;
+}
+
+form {
+	max-width: 668px;
+}
+
+}
